@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Document</title>
+  </head>
+  <body>
+    <p>Weather</p>
+    <form action="/" method="post">
+      <label for="city">City Name:</label>
+      <input type="text" name="city" id="city" />
+      <label for="units">Units:</label>
+      <select id="units" name="units" size="3" multiple>
+        <option value="imperial">Farenheit</option>
+        <option value="metric">Celcius</option>
+        <option value="standard">Kelvins</option>
+      </select>
+      <button type="submit">GO!</button>
+    </form>
+  </body>
 </html>
